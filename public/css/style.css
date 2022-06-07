@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-image:url('/public/img/Dividend-on-investment.jpeg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+   
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: clamp(50ch, 50%, 75ch);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Bebas Neue';
+    font-size: 56px;
+}
+img {
+    max-width: 75%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+img {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+p, main a {
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+p.sample{
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid black;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+.tickers{
+    border: 1px green solid;
+    background: rgb(170, 231, 170);
+}
