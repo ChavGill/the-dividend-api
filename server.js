@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-//const PORT = 8000
+const PORT = 7000
 
 app.use(cors())
 app.use(express.static(__dirname))
@@ -266,6 +266,6 @@ app.get('/api/:stock', (request, response) => {
     //response.json(stock)
 })
 
-app.listen(process.env.PORT , () =>{
+app.listen(process.env.PORT || PORT, () =>{
     console.log(`The server is running on port ${PORT}! you better go catch it!`)
 })
