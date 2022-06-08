@@ -266,6 +266,6 @@ app.get('/api/:stock', (request, response) => {
     //response.json(stock)
 })
 
-app.listen(process.env.PORT || PORT, () =>{
+app.listen(process.env.PORT , () =>{
     console.log(`The server is running on port ${PORT}! you better go catch it!`)
 })
