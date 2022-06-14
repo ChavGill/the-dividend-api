@@ -256,7 +256,7 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
 
-app.get('/api/:stock', (request, response) => {
+app.get('/api/:stockName', (request, response) => {
     const stockName = request.params.stock.toLowerCase()
     if(stock[stockName]){
         response.json(stock[stockName])
