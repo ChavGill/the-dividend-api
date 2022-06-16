@@ -1,6 +1,6 @@
 # the-dividend-api
 
-Love Parks and Rec and need information about your favorite characters for your frontend, backend, or fullstack web apps? Look no further! I have created Ron's worst nightmare, a Parks and Rec API with information about many recurring characters in the series from all 7 seasons. 
+A personal list of dividend stocks I personally research and/or own in my portfolio.
 
 **Link to project:** https://the-dividends-api.herokuapp.com/
 
