@@ -1,6 +1,6 @@
 # the-dividend-api
 
-A personal list of dividend stocks I personally research and/or own in my portfolio.
+A personal list of dividend stocks I personally research and/or own in my portfolio. Now available to you, in the middle of a market downturn....
 
 **Link to project:** https://the-dividends-api.herokuapp.com/
 
